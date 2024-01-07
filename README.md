@@ -16,7 +16,7 @@ Réalisation d'un projet python sur un moteur de recherche. Ce moteur se base su
 # Prérequis
 1. Cloner le projet avec la commande suivante : 
 git clone https://github.com/IsmalSacko/depot-brouillon-aboud-ismael.git
-# Configuration pour du projet pour l'initir à un repository existant
+# Configuration pour du projet pour l'initier à un repository existant
 git remote add origin https://github.com/IsmalSacko/depot-brouillon-aboud-ismael.git
 git branch -M main
 git push -u origin main
