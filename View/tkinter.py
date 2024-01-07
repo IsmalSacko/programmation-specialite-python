@@ -1,3 +1,6 @@
+
+# importation des librairies necessaires
+
 from tkinter import *
 from tkinter.messagebox import askokcancel
 from Model.Menu import Menu
@@ -8,21 +11,19 @@ from random import randint
 from datetime import datetime
 from Controller.controller import *
 
-#from matplotlib.figure import Figure
-#from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
-#load questions
+# chargement des questions
 quest=json.loads(open('file/questions.json', encoding="utf-8").read())["questions"][:]
-#load answers
+# chargements des réponses 
 ans=json.loads(open('file/answers.json', encoding="utf-8").read())["answers"]
-#convert into lists
+# conversion en liste
 questions={i:list(q.values())[0] for i,q in enumerate(quest)}
 answers={j:list(q.values())[0] for j,q in enumerate(ans)}
-#load id2doc
+# chargement id2doc
 with open('file/doc.pkl', 'rb') as t:
     id2doc = pickle.load(t)
     t.close()
-#load id2aut dans un dictionnaire s
+# chargement id2aut dans un dictionnaire s
 with open('file/aut.pkl', 'rb') as f: 
     id2aut = pickle.load(f)
     f.close()
@@ -39,16 +40,16 @@ def View():
     #canvas
     canvas = Canvas(fenetre, width = LARGEUR, height = HAUTEUR, bg = 'white')
     canvas.pack(padx =5, pady =5)
-    #initialise corpus
+    #initialision du corpus
     corpus= Corpus("test", id2aut, id2doc, len(id2doc), len(id2aut))
     
-    #fonction pour fermer la fenètre.
+    # fonction permettant de fermer la fenètre.
     def quitter():
         res = askokcancel("Quit the application", "Are you sure ?")
         if res:
             fenetre.quit()
             fenetre.destroy()
-    #fonction qui retourne les input et output  
+    # fonction qui retourne les input et output  
     def saisie():
         name=champ.get("1.0", 'end-1c').strip()
         champ.delete("0.0", END)
@@ -123,10 +124,10 @@ def View():
     ChatLog['yscrollcommand'] = scrollbar.set
     scrollbar.place(x=1080, y=6, height=500)
     ChatLog.place(x=15, y=8, height=HAUTEUR, width=LARGEUR)
-    # search button
+    # recherche du button
     recherche = Button(fenetre, text="Search", command=saisie, bd=0, bg="#32de97", activebackground="#3c9d9b", fg='black')
     recherche.place(x = 700 , y = 550 , width = 150)
-    # Quit button
+    # Quitter le button
     quitte = Button(fenetre, text = 'Quit', bd=0, bg="red", activebackground="#3c9d9b", fg='black',command = quitter)
     quitte.place(x = 900 , y = 550 , width = 150)
     # launch all

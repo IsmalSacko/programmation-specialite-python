@@ -1,5 +1,8 @@
+
+# import de la lib view pour le lancement de l'interface
+
 from View.tkinter import View
 
-# Main function qui lance l'application pour l'utilisateur.
+# fonction Main  qui permet de lancer l'application pour l'utilisateur.
 if __name__ == "__main__":
     View()
