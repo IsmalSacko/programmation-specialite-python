@@ -1,5 +1,6 @@
 from Model.Document import Document
 
+# classe fille  qui sert à modéliser un Document Arxiv
 
 class ArxivDocument(Document):
     

@@ -1,4 +1,5 @@
-# calling: Author(name, ndoc, production)
+# classe Author qui représente : name, ndoc, production
+
 class Author:
 
     def __init__(self, name, ndoc=0, production={}):
