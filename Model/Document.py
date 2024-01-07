@@ -1,6 +1,6 @@
-# Classe Document pour stocker les informations d'un document
+# Classe Document, classe mère, pour stocker les informations d'un document
 class Document:
-    
+    # constructeur
     def __init__(self, titre, auteur, date, url, texte):
         """
         Initialise un objet Document avec les informations spécifiées.
