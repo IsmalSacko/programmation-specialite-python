@@ -1,0 +1,50 @@
+{
+    "questions":[
+        {
+            "question":"hello how are you good morning evening afternoon coucou hi"
+        },
+        {
+            "question":"give what can i do for you is your program menu show me how work"
+        },
+        {
+            "question":"give see know me current can i have the what time is it hour"
+        },
+        {
+            "question":"what can i see have is show authors give list of all what are the different"
+        },
+        {
+            "question":"give can i see doc documents document with about show me key words"
+        },
+        {
+            "question":""
+        },
+        {
+            "question":"give have see general stat statistics summary of doc documents in corpus"
+        }
+    ],
+    "questionss":[
+        {
+            "question":"bonjour comment ça va bonjour bonsoir après-midi coucou salut"
+        },
+        {
+            "question":"donne quoi puis-je faire pour vous est-ce que votre menu de programme me montre comment ça marche"
+        },
+        {
+            "question":"donne voir connaître moi actuel puis-je avoir l'heure"
+        },
+        {
+            "question":"que puis-je voir avoir est montrer les auteurs donner liste de tous quels sont les différents"
+        },
+        {
+            "question":"donne puis-je voir documents document avec à propos montre-moi mots-clés"
+        },
+        {
+            "question":""
+        },
+        {
+            "question":"donne voir général stat statistiques résumé de documents dans le corpus"
+        }
+    ]
+}
+
+
