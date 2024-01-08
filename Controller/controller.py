@@ -33,8 +33,10 @@ def refreshDoc(redditSubject='Philosophie', arxivSubject='philosophe'):
     id2aut = {}
     id = 0
     # reddit api pour recuperer les documents
-    reddit = praw.Reddit(client_id='PqiWHPjbGjiAkYAYCJbtiQ',
-                         client_secret='ZyC2vijMHoj1itwZmz-vzr1DyBY2Cw', user_agent='td3', check_for_async=False)
+    reddit = praw.Reddit(client_id='u3rloCuzncRYoFhePXGaig',
+                         client_secret='gbUMJKAbdAHMjAXz4M88hHAYeuNz1Q',
+                           user_agent='projet_ismael_abdoul', 
+                           check_for_async=False)
     subr = reddit.subreddit(redditSubject)
     for post in subr.hot(limit=1):
         titre = post.title
