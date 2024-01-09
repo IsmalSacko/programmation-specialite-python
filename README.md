@@ -18,7 +18,7 @@ Réalisation d'un projet python sur un moteur de recherche. Ce moteur se base su
 git clone https://github.com/IsmalSacko/depot-brouillon-aboud-ismael.git
 
 2. Installer les dépendances avec la commande suivante :
-- pip install -r requirements.txt
+- pip install -r requirements.txt pour installer les dépendances du projet depuis le fichier requirements.txt
 3. Lancer le projet depuis le fichier main.py pour avoir l'interface graphique de TinKer
 Et lancer recherche dans le champ de recherche pour avoir les résultats de la recherche sur un auteurs ou un titre de livre.
 
