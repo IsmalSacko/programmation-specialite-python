@@ -16,13 +16,10 @@ Réalisation d'un projet python sur un moteur de recherche. Ce moteur se base su
 # Prérequis
 1. Cloner le projet avec la commande suivante : 
 git clone https://github.com/IsmalSacko/depot-brouillon-aboud-ismael.git
-# Configuration pour du projet pour l'initier à un repository existant
-git remote add origin https://github.com/IsmalSacko/depot-brouillon-aboud-ismael.git
-git branch -M main
-git push -u origin main
-3. Installer les dépendances avec la commande suivante :
-pip install -r requirements.txt
-4. Lancer le projet depuis le fichier main.py pour avoir l'interface graphique de TinKer
-Et lancer recherche dans le champ de recherche pour avoir les résultats de la recherche sur un auteurs ou un titre de livre
+
+2. Installer les dépendances avec la commande suivante :
+- pip install -r requirements.txt
+3. Lancer le projet depuis le fichier main.py pour avoir l'interface graphique de TinKer
+Et lancer recherche dans le champ de recherche pour avoir les résultats de la recherche sur un auteurs ou un titre de livre.
 
 
