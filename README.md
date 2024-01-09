@@ -15,7 +15,7 @@ Réalisation d'un projet python sur un moteur de recherche. Ce moteur se base su
 
 # Prérequis
 1. Cloner le projet avec la commande suivante : 
-git clone https://github.com/IsmalSacko/depot-brouillon-aboud-ismael.git
+git clone https://github.com/IsmalSacko/programmation-specialite-python.git
 
 2. Installer les dépendances avec la commande suivante :
 - pip install -r requirements.txt pour installer les dépendances du projet depuis le fichier requirements.txt
